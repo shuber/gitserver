@@ -1,0 +1,27 @@
+{
+  "name": "gitserver",
+  "version": "0.0.0",
+  "dependencies": {
+    "coffee-script": "1.3.1",
+    "connect": "2.3.3",
+    "git-emit": "0.0.0",
+    "pushover": "0.1.2"
+  },
+  "devDependencies": {
+    "vows": "0.6.2"
+  },
+  "scripts": {
+    "start": "coffee app",
+    "test": "vows --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuber/gitserver.git"
+  },
+  "contributors": [
+    {
+      "name": "Sean Huber",
+      "email": "shuber@einsteinmedical.com"
+    }
+  ]
+}
